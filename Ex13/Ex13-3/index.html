@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon\" href="data:,">
+        <title>ESP32 Web Server</title>
+        <style>
+            html{
+                font-family: Helverica;
+                display: inline-block;
+                margin: 0px auto;
+                text-align: center;
+            }
+            .button{
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 16px 40px;
+                text-decoration: none;
+                font-size: 30px;
+                margin: 2px;
+                cursor: pointer;
+            }
+            .button2{
+                background-color: #555555;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>ESP32 Web Server</h1>
+
+        <p>GPIO Red - State on</p>
+        <p>
+            <a href="/Red/on">
+                <button class="button">ON</button>
+            </a>
+        </p>
+
+        <p>GPIO Green - State on</p>
+        <p>
+            <a href="/Green/off">
+                <button class="button button2">ON</button>
+            </a>
+        </p>
+
+        <p>GPIO Red - State on</p>
+        <p>
+            <a href="/Blue/on">
+                <button class="button">ON</button>
+            </a>
+        </p>
+    </body>
+</html>
